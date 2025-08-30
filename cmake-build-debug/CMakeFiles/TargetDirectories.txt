@@ -1,0 +1,3 @@
+C:/Users/dtpad/CLionProjects/Transazioni_Finanziarie/cmake-build-debug/CMakeFiles/Transazioni_Finanziarie.dir
+C:/Users/dtpad/CLionProjects/Transazioni_Finanziarie/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dtpad/CLionProjects/Transazioni_Finanziarie/cmake-build-debug/CMakeFiles/rebuild_cache.dir

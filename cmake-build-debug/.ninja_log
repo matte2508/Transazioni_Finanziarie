@@ -1,0 +1,13 @@
+# ninja log v6
+325	1092	7781835853988054	CMakeFiles/Transazioni_Finanziarie.dir/main.cpp.obj	e5eb7b320162ce54
+1769	1937	7781894558740493	Transazioni_Finanziarie.exe	20b0f3efb00f587
+8	275	7781835850817444	CMakeFiles/Transazioni_Finanziarie.dir/main.cpp.obj.ddi	a7df3f627a9a2d1
+18	392	7781827297201709	CMakeFiles/Transazioni_Finanziarie.dir/Transaction.cpp.obj.ddi	362d812afc0ee8fd
+19	354	7781894541240032	CMakeFiles/Transazioni_Finanziarie.dir/BankAccount.cpp.obj.ddi	f936e3fd30318df4
+355	526	7781894544607148	CMakeFiles/Transazioni_Finanziarie.dir/main.cpp.obj.modmap	112201292a59bd4f
+355	526	7781894544607148	CMakeFiles/Transazioni_Finanziarie.dir/CXX.dd	112201292a59bd4f
+355	526	7781894544607148	C:/Users/dtpad/CLionProjects/Transazioni_Finanziarie/cmake-build-debug/CMakeFiles/Transazioni_Finanziarie.dir/CXXModules.json	112201292a59bd4f
+355	526	7781894544607148	CMakeFiles/Transazioni_Finanziarie.dir/Transaction.cpp.obj.modmap	112201292a59bd4f
+355	526	7781894544607148	CMakeFiles/Transazioni_Finanziarie.dir/BankAccount.cpp.obj.modmap	112201292a59bd4f
+440	1672	7781827301426079	CMakeFiles/Transazioni_Finanziarie.dir/Transaction.cpp.obj	ef4d96de6a9207d7
+527	1769	7781894546323848	CMakeFiles/Transazioni_Finanziarie.dir/BankAccount.cpp.obj	26f9d5b84fbd29cf
