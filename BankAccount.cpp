@@ -2,9 +2,7 @@
 #include <fstream>
 #include <stdexcept>
 #include <iostream>
-BankAccount::BankAccount(const std::string ownerName, const std::string iban, double balance):ownerName(ownerName),iban(iban),balance(balance){}
-std::vector <transaction> transactions;
-double balance;
+BankAccount::BankAccount(const std::string owner, const std::string iban, double balance):owner(owner),iban(iban),balance(balance){}
 void BankAccount::addTransaction(const transaction& t) {
     Transactions.push_back(t);
     balance+=t.getAmount();
@@ -13,14 +11,14 @@ double BankAccount::getBalance() const {
     return balance;
 }
 
-const std::string BankAccount::getOwnerName() const {
-    return ownerName;
+const std::string BankAccount::getOwner() const {
+    return owner;
 }
 const std::string BankAccount::getIban() const {
     return iban;
 }
 const std::vector<transaction> &BankAccount::getTransactions() const {
-    return transactions;
+    return  Transactions;
 }
 void BankAccount::savetoFile(const std::string &filename, char divider) const
      {
@@ -47,7 +45,7 @@ void BankAccount::loadFromFile(const std::string &filename, char divider)  {
     }
 }
 void BankAccount::printAccount() const {
-    std::cout <<"Bank account --> " <<"Owner:"<< ownerName << " IBAN:" << iban << " current balance: " << balance <<"EUR"<<"\n Transactions:"<< std::endl;
+    std::cout <<"Bank account --> " <<"Owner:"<< owner << " IBAN:" << iban << " current balance: " << balance <<"EUR"<<"\n Transactions:"<< std::endl;
     if(Transactions.empty()) {
         std::cout<<"No transactions."<<std::endl;
     }else {

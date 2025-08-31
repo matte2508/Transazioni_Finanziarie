@@ -1,7 +1,5 @@
 #include <ctime>
-#include <bits/locale_classes.h>
 #include <sstream>
-#include <iomanip>
 #include "transaction.h"
     transaction::transaction( const std::string& date, const std::string& time,double amount,const std::string& description):date(date),time(time),amount(amount),description(description){}
     double transaction::getAmount() {return amount;}
@@ -17,7 +15,7 @@
     bool transaction::income() const{return amount>0;}
     bool transaction::expense() const{return amount<0;}
 
-    std::string transaction::toCsv(char divider) const {
+    std::string transaction::toCsv(char divider) const { //transaction-->string
         std::ostringstream os;
         os<<date<<divider<<time<<divider<<amount
         <<divider<<description;
@@ -30,6 +28,6 @@
         std::getline(os, time, divider);
         std::getline(os, strAmount,divider);
         std::getline(os, description);
-        double amount = std::stod(strAmount);// to convert the string to double
+        double amount = std::stod(strAmount);// to convert the string to double for the output
         return transaction(date, time, amount, description);
     }
