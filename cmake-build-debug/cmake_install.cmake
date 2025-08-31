@@ -34,7 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/dtpad/Downloads/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/dtpad/OneDrive/Desktop/MiGw/mingw64/bin/objdump.exe")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/dtpad/CLionProjects/Transazioni_Finanziarie/cmake-build-debug/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

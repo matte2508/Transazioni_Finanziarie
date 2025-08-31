@@ -1,7 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/Transazioni_Finanziarie.dir/main.cpp.obj: dyndep
-
-build CMakeFiles/Transazioni_Finanziarie.dir/Transaction.cpp.obj: dyndep
-
-build CMakeFiles/Transazioni_Finanziarie.dir/BankAccount.cpp.obj: dyndep
-
